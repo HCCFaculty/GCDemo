@@ -7,6 +7,8 @@
     <layout name="npnxnanbnsnfns10101100101" font="Lato" controllayout="npnxnanbnsnfns10101100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
     <layout name="pxabnsnfns10101100100" font="Lato" controllayout="pxabnsnfns10101100100" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
     <layout name="npnxnanbnsnfns00001100101" font="Lato" controllayout="npnxnanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="pxabnsnfns10111100101" font="Lato" controllayout="pxabnsnfns10111100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="npnxnanbnsnfns10111100101" font="Lato" controllayout="npnxnanbnsnfns10111100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
     <layout name="pxabnsnfns00001100101" font="Lato" controllayout="pxabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
   </layouts>
   <control_options>
@@ -213,6 +215,52 @@
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -1575,6 +1623,7 @@
     <outline>
       <links>
         <slidelink slideid="_player.6cAprPLHUmI.5VhivolwZVx" displaytext="Global Competency" expand="false" type="slide" />
+        <slidelink slideid="_player.6cAprPLHUmI.60bHQODW4dl" displaytext="Overview" expand="false" type="slide" />
         <slidelink slideid="_player.6cAprPLHUmI.5tAWBZjYcP3" displaytext="Select an Objective" expand="false" type="slide" />
         <slidelink slideid="_player.6cAprPLHUmI.60GXiZ2ipK5" displaytext="Obj 1 Explanation" expand="false" type="slide" />
         <slidelink slideid="_player.6cAprPLHUmI.5YBFxpwKHqd" displaytext="Obj 1 Scoring" expand="false" type="slide" />
@@ -1582,15 +1631,17 @@
         <slidelink slideid="_player.6cAprPLHUmI.5fRTkjmeJiw" displaytext="Obj 2 Scoring" expand="false" type="slide" />
         <slidelink slideid="_player.6cAprPLHUmI.6iLX5aZxr2a" displaytext="Obj 3 Explanation" expand="false" type="slide" />
         <slidelink slideid="_player.6cAprPLHUmI.6QjelyGlFzw" displaytext="Obj 3 Scoring" expand="false" type="slide" />
-        <slidelink slideid="_player.6cAprPLHUmI.5ijpPuzfO4n" displaytext="Scoring Survey" expand="false" type="slide" />
+        <slidelink slideid="_player.6cAprPLHUmI.5ijpPuzfO4n" displaytext="Survey Instructions" expand="false" type="slide" />
+        <slidelink slideid="_player.6cAprPLHUmI.69LOOer6UMY" displaytext="Scoring Survey" expand="false" type="slide" />
       </links>
     </outline>
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/Global Competency Rubric.pdf" image="story_content/6ePqahOTYCz.png" title="Global Competency Rubric" />
-      <resource url="story_content/external_files/Climate Change Writing Assignment.pdf" image="story_content/5l9WIM8RI5q.png" title="Climate Change Writing Assignment" />
-      <resource url="story_content/external_files/Student Sample - Climate Change Paper.pdf" image="story_content/69Q4uAY6Jng.png" title="Student Sample - Climate Change" />
+      <resource url="story_content/external_files/Global Competency Rubric.pdf" image="story_content/6l6HGcmPGgv.png" title="Global Competency Rubric" />
+      <resource url="story_content/external_files/Climate Change Writing Assignment.pdf" image="story_content/5rsJk4ZRLER.png" title="Climate Change Writing Assignment" />
+      <resource url="story_content/external_files/Student Sample - Climate Change Paper.pdf" image="story_content/5WVCgYGMzuT.png" title="Student Sample - Climate Change" />
+      <resource url="story_content/external_files/Survey Sample.pdf" image="story_content/6TbTwlMlL9r.png" title="Survey Sample" />
     </resources>
   </resource_data>
   <transcript_data />
